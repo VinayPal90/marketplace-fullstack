@@ -11,7 +11,8 @@ const PROD_URL = 'https://your-backend-service.onrender.com/api';
 const isProduction = false; 
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  // baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://marketplace-fullstack-backend.onrender.com/',
 });
 
 // Request Interceptor: Token automatic add karne ke liye
