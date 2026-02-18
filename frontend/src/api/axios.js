@@ -12,7 +12,7 @@ const isProduction = false;
 
 const API = axios.create({
   // baseURL: 'http://localhost:5000/api',
-  baseURL: 'https://marketplace-fullstack-backend.onrender.com/',
+  baseURL: 'https://marketplace-fullstack-backend.onrender.com/api',
 });
 
 // Request Interceptor: Token automatic add karne ke liye
